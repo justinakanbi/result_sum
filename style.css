@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+:root {
+--light-red: hsl(0, 100%, 67%);
+--orangey-yellow: hsl(39, 100%, 56%);
+--green-teal: hsl(166, 100%, 37%);
+--cobalt-blue: hsl(234, 85%, 45%);
+
+
+
+
+--light-slate-blue: hsl(252, 100%, 67%);
+--light-royal-blue: hsl(241, 81%, 54%);
+
+--violet-blue: hsla(256, 72%, 46%, 1);
+--ersian-blue: hsla(241, 72%, 46%, 0);
+
+--white: hsl(0, 0%, 100%);
+--pale-blue: hsl(221, 100%, 96%);
+--light-lavender: hsl(241, 100%, 89%);
+--dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+ display: flex;
+ justify-content: center;
+}
+
+.main_con {
+    display: flex;
+    color: var(--white);
+    width: 700px;
+    margin: 150px 0px;
+    padding: 200px;
+    box-shadow: 30px;
+}
+
+.card_1 {
+    width: 350px;
+    background-color: -o-linear-gradient(
+        to bottom,
+        hsl(252, 100%, 67%),
+        hsl(241, 81%, 54%)
+    );
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.your {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0),);
+
+}
